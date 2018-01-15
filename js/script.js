@@ -38,6 +38,9 @@ function loadData() {
               '</li>');
 
      };
+   }).error(function(e){
+     $nytHeaderElem.text('New York Times Article could not be displayed')
+   });
 
     // YOUR CODE GOES HERE!
 
